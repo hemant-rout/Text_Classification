@@ -1,0 +1,373 @@
+﻿Process area,Level 1 Process,Module,Sub Process
+EAM,Other,,Other
+EAM,Repair,,Repair
+EAM,Plan,PM,Plan
+EAM,Move,PM,Move
+EAM,Move,PM,Railcar Movement / Sequence
+EAM,Repair,PM,Repair
+EAM,Inspect,PM,Inspection
+EAM,Inspect,PM,Results Recording
+EAM,Inspect,PM,Defect Management
+EAM,Inspect,PM,Follow up Actions
+EAM,Plan,PM,Work Scoping
+EAM,Plan,PM,Material & Labor Planning
+EAM,Other,PM,Other
+EAM,Billing,PM,Billing
+EAM,Other,PM,Reporting
+EAM,Other,PM,Equipment Related Master Data
+EAM,Other,PM,Car Repair Billing Master Data
+EAM,Other,PM,Station Master Data
+EAM,Other,PM,HR Master Data
+EAM,Other,PM,Material Master Data
+EAM,Invoice,PM,Repair Invoicing Mgmt.
+EAM,Bill,PM,Repair Billing Mgmt.
+EAM,Repair,PM,Detailed Pre-Repair Inspection
+EAM,Repair,PM,Procurement (Materials / Resources) 
+EAM,Repair,PM,Repair Execution
+EAM,Repair,PM,Work Closure
+HCM,Talent Management,Comp,Comp review
+HCM,Payroll Admin,Payroll,Taxes - Work tax
+HCM,Personnel Admin,Travel,Travel Expenses
+HCM,Payroll Admin,Payroll,Taxes
+HCM,Payroll Admin,Payroll,Taxes - Residence tax
+HCM,Payroll Admin,Payroll,Earnings & Deductions
+HCM,Personnel Admin,PA,Personnel Management
+HCM,Time Management,Time,Absence Quotas
+HCM,Payroll Admin,Payroll,Taxes - Un employment State
+HCM,Payroll Admin,Payroll,Payroll reduction method
+HCM,Personnel Admin,PA,Custom infotype
+HCM,Payroll Admin,Payroll,Pension Admin
+HCM,Payroll Admin,Payroll,ESS
+HCM,Benefits Admin.,Benefits,ESS
+HCM,Payroll Admin,Payroll,Grievances
+HCM,Benefits Admin.,Benefits,Dependendants
+HCM,Org. Management,OM,Region Division
+HCM,Org. Management,OM,Org Prublisher
+HCM,Payroll Admin,Payroll,Ben Data
+HCM,Payroll Admin,Payroll,SSQ Eligibility
+HCM,Time Management,Time,Feature TMSTA
+HCM,Org. Management,OM,Relationhip P-CP report
+HCM,Personnel Admin,PA,Dynamic Actions
+HCM,Benefits Admin.,Benefits,Custom infotype
+HCM,Time Management,Time,CATS
+HCM,Payroll Admin,Payroll,Wages types
+HCM,Personnel Admin,PA,Security Roles
+HCM,Payroll Admin,Payroll,Payment
+HCM,Payroll Admin,Payroll,Payroll Posting
+HCM,Payroll Admin,Payroll,Payroll Annuity
+HCM,Payroll Admin,Payroll,Workflow
+HCM,Talent Management,Talent,Talent Admin
+HCM,Personnel Admin,PA,JPID
+HCM,Payroll Admin,Payroll,BSI
+HCM,Payroll Admin,Payroll,Mass Load
+HCM,Payroll Admin,Payroll,Garnishment
+HCM,Payroll Admin,Payroll,Payroll processing
+HCM,Payroll Admin,Payroll,Benefits integration
+HCM,Personnel Admin,Travel,Travel Management
+HCM,Payroll Admin,Payroll,Payroll
+HCM,Payroll Admin,Payroll,Enhancement
+HCM,Personnel Admin,PA,ESS
+HCM,Personnel Admin,PA,Profile
+HCM,Org. Management,OM,Org Management
+HCM,Talent Management,Talent,Performance
+HCM,Benefits Admin.,Benefits,401k
+HCM,Personnel Admin,Onboarding,Emp Verification
+HCM,Benefits Admin.,Benefits,Enrollment
+HCM,Benefits Admin.,Benefits,Benefits integration
+HCM,Payroll Admin,Payroll,JPE Info
+HCM,Payroll Admin,Payroll,Comp Management
+HCM,Payroll Admin,Payroll,GREENCOMM
+HCM,Payroll Admin,Payroll,401k
+HCM,Payroll Admin,Payroll,Processing results
+HCM,Benefits Admin.,Benefits,Eligbility
+HCM,Payroll Admin,Payroll,Bonus generation
+HCM,Talent Management,Comp,Comp Management
+HCM,Benefits Admin.,Benefits,Personnel Admin
+HCM,Benefits Admin.,Benefits,Ben Data
+HCM,Benefits Admin.,Benefits,Ben Int- Eligbility
+HCM,Personnel Admin,PA,Travel Expenses
+HCM,Payroll Admin,Payroll,Ben
+HCM,Payroll Admin,Payroll,Reconciliation
+HCM,Org. Management,OM,OM
+HCM,Payroll Admin,Payroll,Travel Expenses
+HCM,Payroll Admin,Payroll,Posting
+HCM,Time Management,Time,Time
+HCM,Personnel Admin,PA,Recruiting
+HCM,Benefits Admin.,Benefits,Ben Admin
+HCM,Personnel Admin,PA,Personnel Admin
+HCM,Time Management,Time,CATS Data
+HCM,Personnel Admin,Travel,Taxes
+HCM,Not HCM - PS,Not HCM - PS,Not HCM - PS
+HCM,Personnel Admin,PA,User ID
+HCM,Benefits Admin.,Benefits,Benefits Vendor
+HCM,Payroll Admin,Payroll,Benefits Vendor
+HCM,Org. Management,OM,Position Assignment
+HCM,Talent Management,Talent,Recruiting
+HCM,Talent Management,PA,Recruiting
+HCM,Time Management,Time,Employee Data
+HCM,Payroll Admin,Payroll,Pension
+HCM,Talent Management,Recruiting,Recruiting Actions
+HCM,Payroll Admin,Payroll,Wage works
+HCM,Personnel Admin,PA,Crewcall
+HCM,Benefits Admin.,Benefits,Ben Eligibility
+HCM,Benefits Admin.,Benefits,Comp  Management
+HCM,Org. Management,OM,Position Management
+HCM,Time Management,Time,Time Management
+HCM,Payroll Admin,Payroll,Stock Data
+HCM,Payroll Admin,Payroll,ADP
+HCM,Payroll Admin,Payroll,Personnel Administration
+HCM,Payroll Admin,Payroll,Comp  Management
+HCM,Payroll Admin,Payroll,Payroll calc
+HCM,Talent Management,Recruitment,Candidate Admin
+HCM,Personnel Admin,PA,Grandfather data
+HCM,Personnel Admin,PA,Pension Admin
+HCM,Talent Management,Comp,Budgeting
+HCM,Talent Management,Comp,Salary Bonus
+HCM,Benefits Admin.,Benefits,Benefit Integration
+HCM,Benefits Admin.,Benefits,Cobra carrier
+HCM,Benefits Admin.,Benefits,Bonus calc
+HCM,Benefits Admin.,Benefits,HRA data
+HCM,Org. Management,OM,Ben Admin
+HCM,Personnel Admin,PA,Crew Call
+HCM,Personnel Admin,Travel,Expenses Mgt
+HCM,Personnel Admin,Travel,Travel Mgt
+HCM,Personnel Admin,PA,Actions
+HCM,Payroll Admin,Payroll,ACA
+HCM,Personnel Admin,PA,Personnel Administration
+HCM,Payroll Admin,Payroll,Pay Admin
+HCM,Payroll Admin,Payroll,Integration
+HCM,Time Management,Time,Integration
+HCM,Org. Management,OM,Org Admin
+HCM,Org. Management,OM,Job Admin
+HCM,Payroll Admin,Payroll,Payroll Admin
+HCM,Org. Management,OM,Org Structure
+HCM,Personnel Admin,Travel,Training Mgt
+HCM,Personnel Admin,Travel,AMEX
+HCM,PS,PS,PS Module
+HCM,Personnel Admin,Travel,Concur
+HCM,Payroll Admin,Payroll,Ben vendors
+HCM,Payroll Admin,Payroll,Payroll Integration
+HCM,Benefits Admin.,Benefits,ACA
+HCM,,Recruiting,Demographics
+HCM,,PA,ESS
+HCM,,Payroll,Taxes
+HCM,,OM,Org Management
+HCM,,PA,Personnel Admin
+HCM,,OM,Position Management
+HCM,,Time,CATS
+HCM,,Travel,Travel Planning
+HCM,,PA,Personnel Header Data
+HCM,,Talent,Appraisal
+HCM,,Time,Replacements
+HCM,,PA,Concur
+HCM,,Talent,Training
+HCM,,OM,Personnel Admin
+HCM,,PA,SF Integration
+HCM,,PA,Address
+HCM,,Benefits,Ben Integration
+HCM,,Benefits,Eligibility
+HCM,,Benefits,Ben Cost
+HCM,,Benefits,Ben Admin
+HCM,,Comp,Comp
+HCM,,Payroll,Posting
+HCM,,Recruiting,SF Integration
+HCM,,Talent,Authorization
+HCM,,Payroll,ESS/MSS
+HCM,,Travel,Authorization
+HCM,,OM,Authorization
+HCM,,Talent ,Candidate Admin
+HCM,,Payroll,Earnings & Deductions
+HCM,,Payroll,ESS view
+HCM,,Payroll,Pension Admin
+HCM,,SD,MBIL
+P2P,IWM,MM,Material Master
+P2P,Procurement,MM,Vendor Invoicing
+P2P,IWM,MM,Inventory Planning
+P2P,Procurement,MM,Contract Mgt
+P2P,Delivery Management,LE,Outbound Delivery Management
+P2P,IWM,MM,Rotable Mgt
+P2P,Procurement,MM,Direct Procurement
+P2P,Procurement,MM,PO Processing
+P2P,IWM,MM,Inventory Mgt
+P2P,IWM,"MM, WM",Warehouse Picking
+P2P,IWM,"MM, WM",Storage Bin Management
+P2P,Procurement,MM,Indirect Procurement
+P2P,IWM,MM,Goods Issues
+P2P,IWM,MM,Storage Bin Management
+P2P,IWM,MM,Stock Transfers
+P2P,Procurement,LE,PO Processing
+P2P,Finance,FI,A/P
+P2P,IWM,MM,Stock Obsolescence Mgt
+P2P,IWM,MM,Physical Inventory
+P2P,IWM,MM,Warehouse Picking
+P2P,Finance,MM,A/R
+P2P,Delivery Management,MM,Stock Transport Orders
+P2P,IWM,MM,Receiving
+P2P,Procurement,E-Sourcing,Sourcing
+P2P,Procurement,MM,Material Master
+P2P,Procurement,SRM,Sourcing
+P2P,Procurement,SRM,Vendor Mgt
+P2P,Procurement,MM,Tax Management
+P2P,IWM,EAM,Engineering
+P2P,IWM,SD,Scrap Mgt
+P2P,Finance,MM,Accounts Payable
+P2P,IWM,MM,Indirect Procurement
+P2P,EAM,EAM,Equipment Mgt
+P2P,IWM,MM,Scrap Mgt
+P2P,EAM,EAM,Asset Mgt
+P2P,Delivery Management,SD,Shipping
+P2P,Finance,SD,Customer Billing
+P2P,Procurement,SRM,Indirect Procurement
+P2P,IWM,WM,Rotable Mgt
+P2P,Delivery Management,SD,Rotable Mgt
+P2P,Delivery Management,MM,Transportation Mgt
+P2P,IWM,WM,Warehouse Mgt
+P2P,Delivery Management,LE,Shipping
+P2P,Procurement,MM,Vendor Mgt
+P2P,Procurement,SRM,PO Processing
+P2P,Finance,PS,Project System
+P2P,IWM,Misc,Material Master
+P2P,Procurement,MM,MRP
+P2P,Procurement,MM,Sourcing
+P2P,Delivery Management,MM,Outbound Delivery Mgt
+P2P,Procurement,SRM,Contract Mgt
+P2P,Finance,MM,Vendor Invoicing
+R2R,Capital Project Accouting,PS,
+R2R,Vendor Invoicing,AP,
+R2R,General Accounting,GL,
+R2R,Vendor Invoicing,MM,
+R2R,Collections & Dispute Management,AR,
+R2R,Customer Invoicing & AR (MBIL),SD,Customer invoicing 
+R2R,Fixed Asset & Project Accounting,PS,Capital Project Accounting
+R2R,General Accounting Consolidation & Reporting,GL,General Accounting
+R2R,Customer Invoicing & AR (MBIL),AR,Accounts Receivable & Incoming Payments
+R2R,Vendor Invoicing & AP,AP,Vendor Invoicing
+R2R,Misc,SD,SD
+R2R,Fixed Asset & Project Accounting,PS,Capital Planning & Project Approval
+R2R,General Accounting Consolidation & Reporting,CO,Cost Accounting & Control
+R2R,Fixed Asset & Project Accounting,PS,Project Accounting for Environmental Remediation
+R2R,Manage Taxes,TAX,Vendor Invoicing
+R2R,Vendor Invoicing & AP,AP,Vendor Maintenance
+R2R,Manage Taxes,TAX,1099 Tax Withholding/Reporting
+R2R,General Accounting Consolidation & Reporting,MM,Inventory Accounting 
+R2R,Treasury Operations,TR,Bank Management 
+R2R,Customer Invoicing & AR (MBIL),SD,Inventory Accounting 
+R2R,General Accounting Consolidation & Reporting,GL,Inventory Accounting 
+R2R,HCM,HR,HCM
+R2R,Management Cost Accounting,CO,Cost Accounting & Control
+R2R,Source to Pay,MM,Service Management
+R2R,Source to Pay,IM,Inventory Management
+R2R,Vendor Invoicing & AP,AP,Payables and Outgoing payments
+R2R,Vendor Invoicing & AP,AP,1099 Withholding Tax
+R2R,Misc,SD,Misc
+R2R,Misc,Misc,Misc
+R2R,Misc,AP,
+R2R,Misc,GL,Misc
+R2R,Misc,AP,Misc
+R2R,Source to Pay,SRM,Purchase Order
+R2R,Fixed Asset & Project Accounting,SD,Capital Project Accounting
+R2R,Customer Invoicing & AR (MBIL),SD,Customer Invoicing
+R2R,Customer Invoicing & AR (MBIL),AR,Accounts Receivables & Incoming Payments
+R2R,NA,Misc,NA
+R2R,Vendor Invoicing & AP,AP,Payables & Outgoing Payables
+R2R,General Accounting Consolidation & Reporting,FI,General Accounting
+R2R,Management Cost Accounting,CO,Cost Accouting & Control
+R2R,Treasury Operations,TR,Bank Management
+R2R,Manage Taxes,TX,InDirect Taxes-Sales & US Tax
+R2R,Vendor Invoicing & AP,Misc,Inventory Accounting
+R2R,Fixed Asset & Project Accounting,TX,Project Accounting & Env Remediation
+R2R,Vendor Invoicing & AP,Master Data,Vendor Maintenance
+R2R,Customer Invoicing & AR (MBIL),AR,Receivables & Incoming Payments
+R2R,Vendor Invoicing & AP,Advanced  Shipping Notification,Vendor Invoicing
+R2R,Vendor Invoicing & AP, LPB - Utility Invoices from LPB,Vendor Invoicing
+R2R,Fixed Asset & Project Accounting, TSAR - Create Project,Capital Project Accounting
+R2R,Customer Invoicing & AR (MBIL), TTX - Car Repair Receivable,Customer Invoicing
+R2R,Fixed Asset & Project Accounting, PowerPlant - GL Recon - fromSAP,Capital Project Accounting
+R2R,Customer Invoicing & AR (MBIL), Joint Facilities - Joint facility invoice details,Customer Invoicing
+R2R,General Accounting Consolidation & Reporting,GL Feeder System - 320 bytes - Change request 400 - PARENT,General Accounting
+R2R,Fixed Asset & Project Accounting, TSAR - Damage costs,Capital Project Accounting
+R2R,General Accounting Consolidation & Reporting, APC Deck - 03 NEC (Natural Expense Codes),General Accounting
+R2R,General Accounting Consolidation & Reporting, APC Deck - 13 cost center groups,General Accounting
+R2R,General Accounting Consolidation & Reporting, APC Deck - 59 GL accts by company,General Accounting
+R2R,Customer Invoicing & AR (MBIL), RPMS - AR notes,Accounts Receivable & Incoming Payment
+R2R,Customer Invoicing & AR (MBIL), RPMS - AR customer data,Customer Maintenance & Manage Credit
+R2R,Customer Invoicing & AR (MBIL), RPMS - AR receivable open & closed,Accounts Receivable & Incoming Payment
+R2R,Customer Invoicing & AR (MBIL), RPMS - AR payment data,Accounts Receivable & Incoming Payment
+R2R,Fixed Asset & Project Accounting,PowerPlant - Create Project - SAPHost,Capital Project Accounting
+R2R,Vendor Invoicing & AP,Vendor Master extract to heritage systems - PARENT,Vendor Maintenance
+R2R,Vendor Invoicing & AP, Wachovia - Cleared check processing,Payable & Outgoing Payments
+R2R,Vendor Invoicing & AP,Communications and Signals - TOAD feed to Payment Validation System (in Remedy),Payable & Outgoing Payments
+R2R,Customer Invoicing & AR (MBIL),Credit Card - Invoice validation web service - SAPHost,Customer Invoicing
+R2R,Customer Invoicing & AR (MBIL),RPMS - AR Agreement Increase Information,Accounts Receivable & Incoming Payment
+R2R,Customer Invoicing & AR (MBIL),RPMS - AR Agreement Invoice History w/ Accounting,Accounts Receivable & Incoming Payment
+R2R,Customer Invoicing & AR (MBIL),RPMS - AR Agreement Details,Accounts Receivable & Incoming Payment
+R2R,Vendor Invoicing & AP, Joint Facilities - Send invoice status file,Vendor Invoicing
+R2R,Customer Invoicing & AR (MBIL),Citibank - Customer Portal - Open invoices load ,Customer Invoicing
+R2R,Customer Invoicing & AR (MBIL),Citibank - Customer Portal - Customer master F/M ,Customer Maintenance & Manage Credit
+R2R,Customer Invoicing & AR (MBIL),Create Customer Master Data from Informix to ECC,Customer Maintenance & Manage Credit
+R2R,Customer Invoicing & AR (MBIL),Update Customer Master Data from ECC to Informix,Customer Maintenance & Manage Credit
+R2R,Vendor Invoicing & AP,Create Vendor Invoice Data from Informix to ECC,Vendor Invoicing
+R2R,Vendor Invoicing & AP,Update Vendor Invoice Data from ECC to Informix,Vendor Invoicing
+R2R,Customer Invoicing & AR (MBIL),Update Customer Balance Data from ECC to Informix,Customer Maintenance & Manage Credit
+R2R,Customer Invoicing & AR (MBIL),Update Invoice Balance Data from ECC to Informix,Customer Invoicing
+R2R,Customer Invoicing & AR (MBIL),Create Sales Invoice Data from Informix to ECC,Customer Invoicing
+R2R,Customer Invoicing & AR (MBIL),Update Sales Invoice Data from ECC to Informix,Customer Invoicing
+R2R,General Accounting Consolidation & Reporting,GL Master Data & Cost Center  Interface ,General Accounting
+R2R,Vendor Invoicing & AP,Invoices,Vendor Invoicing
+R2R,General Accounting Consolidation & Reporting, APC Deck - 02 cost centers - PARENT,General Accounting
+R2R,Vendor Invoicing & AP, APC Deck - 02 cost centers - PARENT,Vendor Invoicing
+R2R,Management  Cost Accounting,CO,Cost Accounting & Control
+R2R,Vendor Invoicing & AP,AP,Payable & Outgoing Payments
+R2R,Vendor Invoicing & AP,MM,Vendor Invoicing
+R2R,Customer Invoicing & AR,SD,Customer Invoicing
+R2R,Customer Invoicing & AR,PS,Customer Invoicing
+R2R,Fixed Asset & Project Accounting,CO,Project Accounting & Env. Remediation
+R2R,,,
+R2R,Customer Invoicing & AR (MBIL),FI,Reporting 
+R2R,Vendor Invoicing & AP,AP,Inventory Accounting 
+R2R,Customer Invoicing & AR (MBIL),AR,Customer invoicing 
+R2R,Customer Invoicing & AR (MBIL),AR,Customer Maintenance & Manage credit
+R2R,Vendor Invoicing & AP,AP,1099 Tax Withholding/Reporting
+R2R,Vendor Invoicing & AP,MM,Inventory Accounting 
+R2R,Customer Invoicing & AR (MBIL),AR,Reporting 
+R2R,Management Cost Accounting,CO ,Cost Accounting & Control
+R2R,Fixed Asset & Project Accounting,IM,Project Accounting for Environmental Remediation
+R2R,Misc,Basis,#N/A
+R2R,Manage Taxes,TAX,Indirect Taxes - Sales & Use Tax 
+R2R,General Accounting Consolidation & Reporting,TAX,External Audit Compliance 
+R2R,Fixed Asset & Project Accounting,PS,Customer invoicing 
+R2R,Customer Invoicing & AR (MBIL),SD,Reporting 
+R2R,Vendor Invoicing & AP,FI,Travel & Purchase Card
+R2R,General Accounting Consolidation & Reporting,GL,Internal Audit Compliance 
+R2R,Vendor Invoicing & AP,AP,Reporting 
+R2R,Fixed Asset & Project Accounting,GL,General Accounting
+R2R,Customer Invoicing & AR (MBIL),AR,Bank Management 
+R2R,Vendor Invoicing & AP,AP,Supplier invoicing and payments
+R2R,Vendor Invoicing & AP,HCM,Travel & Purchase Card
+R2R,Vendor Invoicing & AP,Travel,Travel & Purchase Card
+R2R,Vendor Invoicing & AP,AP,Misc
+R2R,Customer Invoicing & AR (MBIL),AR,Lockbox Integration
+R2R,Vendor Invoicing & AP,GL,1099 Tax Withholding/Reporting
+R2R,Fixed Asset & Project Accounting,PS,Direct Tax Property Tax
+R2R,General Accounting Consolidation & Reporting,CO ,General Accounting
+R2R,Customer Invoicing & AR (MBIL),CO ,Customer invoicing 
+R2R,Vendor Invoicing & AP,AP,Travel & Purchase Card
+R2R,Management Cost Accounting,CO ,Management Reporting
+R2R,Treasury Operations,GL,Bank Management 
+R2R,Misc,Misc,#N/A
+HCM,Talent Management,Talent,Onboarding
+HCM,Talent Management,Talent,Learning
+HCM,Time Management,Time,Time Recording
+HCM,Time Management,Time,Time Evaluation
+HCM,Time Management,Time,Time Quotas
+HCM,Payroll Admin,Payroll,Earnings & Deductions Consolidation
+HCM,Payroll Admin,Payroll,Taxes Calculations
+HCM,Payroll Admin,Payroll,Pension Admin.
+P2P,Procurement,MM,Capacity Planning
+P2P,Procurement,MM,Material Requirements Planning
+P2P,Delivery Management,MM,Transportation Scheduling
+P2P,Delivery Management,MM,Transportation Resource Management
+P2P,Warehouse Mgt,WM,Storage Bin Management
+P2P,Warehouse Mgt,WM,Warehouse Picking
+P2P,Warehouse Mgt,WM,Warehouse Putaway
+P2P,Warehouse Mgt,WM,Yard Management

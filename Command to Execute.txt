@@ -1,0 +1,3 @@
+After installing Anaconda execute this line from Project Folder where this Command File resides
+
+conda env create -f environment.yml

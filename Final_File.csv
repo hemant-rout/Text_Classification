@@ -1,0 +1,534 @@
+,Object description,Long Description,Process area,Level 1 Process,Module,Sub Process,L1_Correct,Module_correct,Sub-Module_Correct
+0,project definition,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,False,False,False
+1,parked document,nan,r2r,generalaccountingconsolidation&reporting,gl,generalaccounting,False,False,False
+2,accounting document,nan,r2r,generalaccountingconsolidation&reporting,gl,generalaccounting,False,True,False
+3,purchase contract,nan,r2r,vendorinvoicing,mm,nan,True,True,True
+4,clearing case,nan,r2r,collections&disputemanagement,ar,nan,True,True,True
+5,sales order approval,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+6,migo_badi - post_document,nan,r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,True,True,True
+7,migo_badi-post_document,nan,r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,True,True,True
+8,xibuy accounting detail badi implentation for norfolk sother,nan,r2r,vendorinvoicing&ap,gl,vendorinvoicing,False,True,False
+9,change dispute case before saving,nan,r2r,customerinvoicing&ar(mbil),ar,accountsreceivable&incomingpayments,True,True,True
+10,implementation on save of wbs,nan,r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,True,True,True
+11,enhance accelerator ap reports to pull in gm documents,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+12,create fi doc for rej from dp91,nan,r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,True,True,True
+13,check data change,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,False,False,False
+14,correct customer contact list in billing due list,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+15,for multilple bill-to,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+16,paymetrc - fe_check badi,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+17,apse 78: wbs custom fields,nan,r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,True,True,False
+18,to get the output of ksb1 and save in appl server,nan,r2r,fixedasset&projectaccounting,co,costaccounting&control,False,True,True
+19,default tax code to fb60 & fv50,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+20,sales order approval,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+21,payment due date.,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+22,enh. to hide project / wbs for envrem areq.,nan,r2r,fixedasset&projectaccounting,ps,projectaccountingforenvironmentalremediation,True,True,True
+23,restriction to access vf11,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+24,skipping tax check,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,False,False,True
+25,implementation for checking bill to % against wbs,nan,r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,True,True,True
+26,make the pushbutton visible online,nan,r2r,vendorinvoicing&ap,ap,vendormaintenance,True,True,True
+27,diesul fuel invoice: match delivery date,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+28,remove wtax details,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,False,False,False
+29,copy fields from sales order line item to the debit-memo req,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+30,transworks enhancement for old material number,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,False,True,False
+31,custom gl validations point,nan,r2r,generalaccountingconsolidation&reporting,gl,generalaccounting,True,True,True
+32,diesul fuel invoice: remove reversed gr and match delivery d,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+33,determine correct revenue account,nan,r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,True,True,True
+34,get co_uuid,nan,r2r,treasuryoperations,tr,bankmanagement,True,True,True
+35,environment remediation,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+36,change status,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,False,False,False
+37,transwork enhancement,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,False,False,False
+38,edi invoice print,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+39,enable business area in va02,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+40,sto price,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,False
+41,workflow invoice update,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+42,allow cost center field to be entered,nan,r2r,generalaccountingconsolidation&reporting,gl,inventoryaccounting,True,True,True
+43,enhancement point to cater bapi - park document,nan,r2r,generalaccountingconsolidation&reporting,gl,generalaccounting,True,True,True
+44,maintain substitute check,nan,r2r,generalaccountingconsolidation&reporting,gl,generalaccounting,True,True,True
+45,card validation while importing charges,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+46,implementation of /paymetrc/attach for attachments,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+47,functional area derivation,nan,r2r,generalaccountingconsolidation&reporting,gl,generalaccounting,True,True,True
+48,same gl should not post,nan,r2r,generalaccountingconsolidation&reporting,gl,generalaccounting,True,True,True
+49,additional check for gr qty in mrbr,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+50,unposted items prior to date range must be checked,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+51,additional data for vendors ( subscreen 1000),nan,r2r,vendorinvoicing&ap,ap,vendormaintenance,True,True,True
+52,link the note attached to item with the header.,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+53,push cost center,nan,r2r,managementcostaccounting,co,costaccounting&control,False,False,False
+54,change line item text of invoice document from offset zfap_b,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+55,implicit enhancement in read_po_data in rm08release_f0t,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+56,custom mrbr qty block release,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+57,rm06ekps/show_ekbel,nan,r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,True,True,True
+58,created on date in ksb1 selection screen,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,False,False,False
+59,customer invoice approval,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+60,skip date check on contract dates,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,False,False,False
+61,implementaion of /paymetrc/translist for attachments,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+62,store previous status,nan,r2r,treasuryoperations,tr,bankmanagement,True,True,True
+63,cr566 do not reduce admin fee,nan,r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,True,True,True
+64,enh to read item data.,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+65,ftr enhancements for customers,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,False,False,False
+66,enhancement in fibl_frft,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,False,False,False
+67,so load to not show popup,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+68,enhancement called from alv f4 fields,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,False,False,False
+69,credit debit amount fields for fagl003,nan,r2r,generalaccountingconsolidation&reporting,gl,generalaccounting,True,True,True
+70,customer invoice creation,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,False,False,False
+71,change wtax while posting document,nan,r2r,generalaccountingconsolidation&reporting,gl,generalaccounting,True,True,True
+72,transwork enhancement,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,False,False,False
+73,user should not post service entry sheet from simualtion mir,nan,r2r,generalaccountingconsolidation&reporting,mm,servicemanagement,False,True,True
+74,update bseg-sgtxt on powerplant file,nan,r2r,generalaccountingconsolidation&reporting,gl,generalaccounting,True,True,True
+75,default accounting clerk,nan,r2r,generalaccountingconsolidation&reporting,gl,generalaccounting,True,True,True
+76,to enable text,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+77,copy control for assignment,nan,r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,False,False,False
+78,business area for z14 ord type in class cl_ex_badi_sd_sales_,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+79,zbadi_doc_post,nan,r2r,generalaccountingconsolidation&reporting,gl,generalaccounting,True,True,True
+80,user should not post doc on simulation,nan,r2r,generalaccountingconsolidation&reporting,gl,generalaccounting,True,True,True
+81,copy kostl from sales doc to billing,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+82,check idoc_status table before proceeding further,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+83,vendor creation,nan,r2r,vendorinvoicing&ap,ap,vendormaintenance,True,True,True
+84,block deliveries for billing,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+85,aar automation pricing condition value,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+86,billing plan,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+87,creation of fi document for aar sorder,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+88,enhancement to populate parked invoice amount,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,False,False,False
+89,populate fax # if blank,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+90,fix posting key,nan,r2r,generalaccountingconsolidation&reporting,gl,generalaccounting,True,True,True
+91,wipe out mbdat for scrap orders,nan,r2r,customerinvoicing&ar(mbil),im,inventorymanagement,False,True,True
+92,zr2r_ench_payment_terms,nan,r2r,generalaccountingconsolidation&reporting,gl,generalaccounting,True,True,True
+93,account derivation - treasury enhancement,nan,r2r,generalaccountingconsolidation&reporting,gl,generalaccounting,False,False,False
+94,enhancement for overhead,nan,r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,False,False,False
+95,send jobcount when print bank statement to memory,nan,r2r,customerinvoicing&ar(mbil),ap,payablesandoutgoingpayments,False,True,True
+96,skipping tax check if belgien,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+97,skipping tax check if brasilien,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+98,skipping tax check if bulgaria,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+99,copy kostl from sales doc to billing document,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+100,skipping tax check if france,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+101,r2r: activate additional authority checks,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,False,False,False
+102,include for additional data b in va03,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+103,p/s overhead calculation,nan,r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,True,True,True
+104,apse 73: overhead calculation,nan,r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,True,True,True
+105,sd pricing,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+106,billing exit to populate zzzounr,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+107,additional custom fields for approver field,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+108,remove extra wht line for int xref2,nan,r2r,vendorinvoicing&ap,ap,1099withholdingtax,True,True,True
+109,custom approver fields in invoice creation screen,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+110,enhancement for appropriation request save,nan,r2r,fixedasset&projectaccounting,ps,projectaccountingforenvironmentalremediation,True,True,True
+111,badi implementation for note 301117/im02616414,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+112,protect screen fields,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+113,enhancement point for journal entry upload (apse 115),nan,r2r,generalaccountingconsolidation&reporting,gl,generalaccounting,True,True,True
+114,enhancement called from alv f4 fields,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,False,False,False
+115,pin_sec enhancement,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,False,False,False
+116,ds138 : match withholding tax,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,False,True,False
+117,disable post + save as complete button for non-authorized us,nan,r2r,misc,gl,misc,True,True,True
+118,change wtax details,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,False,True,False
+119,withholding tax,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,False,True,False
+120,enhancement to modify field catalog to display total amount,nan,r2r,customerinvoicing&ar(mbil),gl,misc,False,True,True
+121,tax jur. code from address,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,False,False,False
+122,rrb refbn,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+123,implementation for 660 sap to powerplant project create,nan,r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,True,True,True
+124,cr566: overhead calculation,nan,r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,True,False,True
+125,sd: pricing,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+126,custom table for the list of indexes,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+127,log table for zfap_sub_appr,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+128,error messages for idoc processing,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+129,ap reject invoice reason codes,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+130,citi - interface company code billing number mapping,nan,r2r,customerinvoicing&ar(mbil),ar,customerinvoicing,False,False,False
+131,ap- sac code reject state dfo invoice.,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+132,joint facilities amount conversion table,nan,r2r,customerinvoicing&ar(mbil),ar,accountsreceivables&incomingpayments,True,True,True
+133,aar anual rate uploaded by user,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+134,capex 100 % gl accounts custom mapping table,nan,r2r,generalaccountingconsolidation&reporting,gl,generalaccounting,True,True,True
+135,filter list of journal entry approver,nan,r2r,generalaccountingconsolidation&reporting,gl,generalaccounting,True,True,True
+136,mapping for zzdelay field,nan,r2r,customerinvoicing&ar(mbil),ar,accountsreceivables&incomingpayments,True,True,True
+137,control table for redwood event triggers,nan,r2r,nan,misc,nan,True,True,True
+138,check table for zglusoa-zglusoagp2,nan,r2r,generalaccountingconsolidation&reporting,gl,generalaccounting,True,True,True
+139,lpd charge type,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+140,custom table for escalation rates,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+141,bai text field offset determination table from bank details,nan,r2r,vendorinvoicing&ap,ap,payables&outgoingpayables,True,True,True
+142,capex % input – custom mapping table per wbs,nan,r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,True,True,True
+143,maintenance table for contractors in ps workflow,nan,r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,True,True,True
+144,tv card – citi entries,nan,r2r,vendorinvoicing&ap,ap,payables&outgoingpayables,True,True,True
+145,casualty claims manual checks error table,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+146,company code cross reference table,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,False,False,False
+147,default data for intercompany invoice transfer,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+148,history table for invoice payment block y,nan,r2r,vendorinvoicing&ap,ap,payables&outgoingpayables,True,True,True
+149,text table for cost center attribute of usoa,nan,r2r,managementcostaccounting,co,costaccouting&control,True,True,True
+150,cost center attribute of usoa,nan,r2r,managementcostaccounting,co,costaccouting&control,True,True,True
+151,ebs note to payee table,nan,r2r,treasuryoperations,tr,bankmanagement,True,True,True
+152,intercompany invoice transfer,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+153,table to hold the spool data for billing plan extend program,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+154,store old/new txjcd with effective date,nan,r2r,managetaxes,tx,indirecttaxes-sales&ustax,True,True,True
+155,treasury managing,nan,r2r,treasuryoperations,tr,bankmanagement,True,True,True
+156,joint facilities xref table,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+157,755 last run log,nan,r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,True,True,True
+158,table to hold live on transit data,nan,r2r,vendorinvoicing&ap,misc,inventoryaccounting,True,True,True
+159,table to store transmitted customer balance,nan,r2r,customerinvoicing&ar(mbil),ar,accountsreceivables&incomingpayments,True,True,True
+160,vendors validation table for vendor invoice portal,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+161,journal entry posting error log,nan,r2r,generalaccountingconsolidation&reporting,gl,generalaccounting,True,True,True
+162,table to store the history of file sent. interface 848,nan,r2r,vendorinvoicing&ap,ap,payables&outgoingpayables,True,True,True
+163,table of partial payment amounts for invoice balance inf,nan,r2r,customerinvoicing&ar(mbil),ar,accountsreceivables&incomingpayments,True,True,True
+164,table for the current status of the recurring agreement,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+165,table for ps workflow approval data,nan,r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,True,True,True
+166,user status updates for xibuy,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+167,map job codes to taxing jurisdictions on wbs elements.,nan,r2r,fixedasset&projectaccounting,tx,projectaccounting&envremediation,True,True,True
+168,table of accounting distribution,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+169,attachment detail mapping table for ibm icc4sap,nan,r2r,generalaccountingconsolidation&reporting,fi,generalaccounting,True,True,True
+170,cross reference table for customer/vendors,nan,r2r,vendorinvoicing&ap,masterdata,vendormaintenance,True,True,True
+171,table to store invoice balance details from ecc to pi,nan,r2r,customerinvoicing&ar(mbil),ar,accountsreceivables&incomingpayments,True,True,True
+172,parent invoice payment request file error table,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,False
+173,invoice approval table,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+174,edi 810 custom table header,nan,r2r,vendorinvoicing&ap,ap,payables&outgoingpayables,True,True,True
+175,edi 810 custom table line item,nan,r2r,vendorinvoicing&ap,ap,payables&outgoingpayables,True,True,True
+176,vendor request table,nan,r2r,vendorinvoicing&ap,ap,vendormaintenance,True,True,True
+177,cass utility invoices error reporting,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+178,invoice variance workflow track for qty var wf,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+179,lock box updtae header data during posting,nan,r2r,customerinvoicing&ar(mbil),ar,receivables&incomingpayments,True,True,True
+180,changelog of approver in fv60,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+181,alv error report structure for edi810,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+182,alternate lock box address.,nan,r2r,customerinvoicing&ar(mbil),ar,customerinvoicing,True,True,False
+183,item level data-test,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,False,False,False
+184,rejection reason,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,False,False,False
+185,temporary lockbox parameters,nan,r2r,customerinvoicing&ar(mbil),ar,receivables&incomingpayments,True,True,True
+186,proxy class (generated),nan,r2r,customerinvoicing&ar(mbil),updatecustomerbalancedatafromecctoinformix,customermaintenance&managecredit,False,False,False
+187,proxy class (generated),nan,r2r,customerinvoicing&ar(mbil),updatecustomerbalancedatafromecctoinformix,customermaintenance&managecredit,False,False,False
+188,proxy class (generated),nan,r2r,customerinvoicing&ar(mbil),updatecustomerbalancedatafromecctoinformix,customermaintenance&managecredit,False,False,False
+189,proxy class (generated),nan,r2r,customerinvoicing&ar(mbil),updatecustomerbalancedatafromecctoinformix,customermaintenance&managecredit,True,False,False
+190,gl balances from ecc,nan,r2r,generalaccountingconsolidation&reporting,gl,generalaccounting,False,False,False
+191,joint facilities invoices,nan,r2r,customerinvoicing&ar(mbil),ar,customerinvoicing,True,False,True
+192,service interface for the inbound ecc proxy,nan,r2r,customerinvoicing&ar(mbil),creditcard-invoicevalidationwebservice-saphost,customerinvoicing,False,False,False
+193,damage costs from sap project system,nan,r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,True,False,True
+194,proxy class (generated),nan,r2r,customerinvoicing&ar(mbil),updatecustomerbalancedatafromecctoinformix,customermaintenance&managecredit,False,False,False
+195,proxy class (generated),nan,r2r,customerinvoicing&ar(mbil),updatecustomerbalancedatafromecctoinformix,customermaintenance&managecredit,False,False,False
+196,proxy class (generated),nan,r2r,customerinvoicing&ar(mbil),updatecustomerbalancedatafromecctoinformix,customermaintenance&managecredit,False,False,False
+197,proxy class (generated),nan,r2r,customerinvoicing&ar(mbil),updatecustomerbalancedatafromecctoinformix,customermaintenance&managecredit,True,False,False
+198,proxy class (generated),nan,r2r,customerinvoicing&ar(mbil),updatecustomerbalancedatafromecctoinformix,customermaintenance&managecredit,True,False,True
+199,proxy class (generated),nan,r2r,customerinvoicing&ar(mbil),updatecustomerbalancedatafromecctoinformix,customermaintenance&managecredit,True,False,False
+200,proxy class (generated),nan,r2r,customerinvoicing&ar(mbil),updatecustomerbalancedatafromecctoinformix,customermaintenance&managecredit,True,False,False
+201,proxy class (generated),nan,r2r,customerinvoicing&ar(mbil),updatecustomerbalancedatafromecctoinformix,customermaintenance&managecredit,False,False,False
+202,outbound service interface -- vendor master,nan,r2r,vendorinvoicing&ap,vendormasterextracttoheritagesystems-parent,vendormaintenance,True,True,True
+203,si for cleared checks going to sap,nan,r2r,vendorinvoicing&ap,wachovia-clearedcheckprocessing,payable&outgoingpayments,True,True,True
+204,proxy class (generated),nan,r2r,customerinvoicing&ar(mbil),updatecustomerbalancedatafromecctoinformix,customermaintenance&managecredit,False,False,False
+205,inbound service interface -- credit card invoice validation,nan,r2r,vendorinvoicing&ap,creditcard-invoicevalidationwebservice-saphost,customerinvoicing,False,True,True
+206,proxy class (generated),nan,r2r,customerinvoicing&ar(mbil),updatecustomerbalancedatafromecctoinformix,customermaintenance&managecredit,True,False,False
+207,proxy class (generated),nan,r2r,customerinvoicing&ar(mbil),updatecustomerbalancedatafromecctoinformix,customermaintenance&managecredit,True,False,False
+208,proxy class (generated),nan,r2r,customerinvoicing&ar(mbil),updatecustomerbalancedatafromecctoinformix,customermaintenance&managecredit,True,False,False
+209,proxy class (generated),nan,r2r,customerinvoicing&ar(mbil),updatecustomerbalancedatafromecctoinformix,customermaintenance&managecredit,False,False,False
+210,proxy class (generated)(invoices2045),nan,r2r,customerinvoicing&ar(mbil),citibank-customerportal-openinvoicesload,customerinvoicing,True,True,True
+211,proxy class (generated)(customerfm2049),nan,r2r,customerinvoicing&ar(mbil),citibank-customerportal-customermasterf/m,customermaintenance&managecredit,True,True,True
+212,generated test implementation,nan,r2r,customerinvoicing&ar(mbil),createcustomermasterdatafrominformixtoecc,customermaintenance&managecredit,True,True,True
+213,proxy class (generated),nan,r2r,customerinvoicing&ar(mbil),updatecustomerbalancedatafromecctoinformix,customermaintenance&managecredit,True,False,True
+214,generated test implementation,nan,r2r,customerinvoicing&ar(mbil),createcustomermasterdatafrominformixtoecc,customermaintenance&managecredit,False,False,False
+215,outbound interface to update vendor invoice,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,False,True
+216,proxy class (generated),nan,r2r,customerinvoicing&ar(mbil),updatecustomerbalancedatafromecctoinformix,customermaintenance&managecredit,True,True,True
+217,proxy class (generated),nan,r2r,customerinvoicing&ar(mbil),updatecustomerbalancedatafromecctoinformix,customermaintenance&managecredit,True,False,False
+218,generated test implementation,nan,r2r,customerinvoicing&ar(mbil),createcustomermasterdatafrominformixtoecc,customermaintenance&managecredit,True,False,False
+219,proxy class (generated),nan,r2r,customerinvoicing&ar(mbil),updatecustomerbalancedatafromecctoinformix,customermaintenance&managecredit,True,False,False
+220,gl and cost center interface(2101),nan,r2r,generalaccountingconsolidation&reporting,glmasterdata&costcenterinterface,generalaccounting,True,True,True
+221,proxy class (generated),nan,r2r,customerinvoicing&ar(mbil),updatecustomerbalancedatafromecctoinformix,customermaintenance&managecredit,False,False,False
+222,proxy class (generated),nan,r2r,customerinvoicing&ar(mbil),updatecustomerbalancedatafromecctoinformix,customermaintenance&managecredit,False,False,False
+223,proxy class (generated),nan,r2r,customerinvoicing&ar(mbil),updatecustomerbalancedatafromecctoinformix,customermaintenance&managecredit,False,False,False
+224,proxy class (generated),nan,r2r,customerinvoicing&ar(mbil),updatecustomerbalancedatafromecctoinformix,customermaintenance&managecredit,False,False,False
+225,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,False,False,False
+226,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,True,False,False
+227,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,True,True,True
+228,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,True,False,False
+229,customer enhancement (screen exit),nan,r2r,fixedasset&projectaccounting,ps,capitalplanning&projectapproval,True,True,True
+230,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,False,False,False
+231,customer enhancement (screen exit),nan,r2r,fixedasset&projectaccounting,ps,capitalplanning&projectapproval,True,True,True
+232,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,False,False,False
+233,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,False,False,False
+234,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,True,True,True
+235,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,False,False,False
+236,customer enhancement (screen exit),nan,r2r,fixedasset&projectaccounting,ps,capitalplanning&projectapproval,False,False,False
+237,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,True,False,False
+238,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,False,False,False
+239,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,True,False,False
+240,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,True,False,False
+241,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,True,False,True
+242,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,False,False,False
+243,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,False,False,False
+244,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,False,False,False
+245,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,False,False,False
+246,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,False,False,False
+247,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,True,True,True
+248,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,False,False,False
+249,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,False,False,False
+250,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,False,False,False
+251,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,True,True,True
+252,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,False,False,False
+253,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,False,False,False
+254,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,False,False,False
+255,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,False,False,False
+256,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,False,False,False
+257,customer enhancement (menu exit),nan,r2r,fixedasset&projectaccounting,ps,capitalplanning&projectapproval,False,False,False
+258,customer enhancement (screen exit),nan,r2r,fixedasset&projectaccounting,ps,capitalplanning&projectapproval,False,False,False
+259,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,False,False,False
+260,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,False,False,False
+261,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,True,False,False
+262,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,True,True,True
+263,customer enhancement (menu exit),nan,r2r,fixedasset&projectaccounting,ps,capitalplanning&projectapproval,True,True,True
+264,customer enhancement (menu exit),nan,r2r,fixedasset&projectaccounting,ps,capitalplanning&projectapproval,True,True,True
+265,customer enhancement (screen exit),nan,r2r,fixedasset&projectaccounting,ps,capitalplanning&projectapproval,True,True,True
+266,customer enhancement (menu exit),nan,r2r,fixedasset&projectaccounting,ps,capitalplanning&projectapproval,True,True,True
+267,customer enhancement (menu exit),nan,r2r,fixedasset&projectaccounting,ps,capitalplanning&projectapproval,True,True,True
+268,customer enhancement (screen exit),nan,r2r,fixedasset&projectaccounting,ps,capitalplanning&projectapproval,True,True,True
+269,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,True,False,False
+270,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,True,True,True
+271,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,True,True,True
+272,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,True,True,True
+273,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,True,True,True
+274,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,True,False,True
+275,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,False,False,False
+276,customer enhancement (screen exit),nan,r2r,fixedasset&projectaccounting,ps,capitalplanning&projectapproval,False,False,False
+277,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,False,False,False
+278,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,False,False,False
+279,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,True,True,True
+280,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,True,True,True
+281,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,False,False,False
+282,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,False,False,False
+283,customer enhancement (menu exit),nan,r2r,fixedasset&projectaccounting,ps,capitalplanning&projectapproval,False,False,False
+284,customer enhancement (screen exit),nan,r2r,fixedasset&projectaccounting,ps,capitalplanning&projectapproval,False,False,False
+285,customer enhancement (menu exit),nan,r2r,fixedasset&projectaccounting,ps,capitalplanning&projectapproval,False,False,False
+286,customer enhancement (screen exit),nan,r2r,fixedasset&projectaccounting,ps,capitalplanning&projectapproval,False,False,False
+287,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,False,False,False
+288,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,False,False,False
+289,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,False,False,False
+290,customer enhancement projects,nan,r2r,vendorinvoicing&ap,mm,vendorinvoicing,False,False,False
+291,print program: account statement,report-header =======================================================================,r2r,customerinvoicing&ar(mbil),fi,reporting,True,True,True
+292,print program: account statement,report-header =======================================================================,r2r,customerinvoicing&ar(mbil),fi,reporting,True,True,True
+293,print program: account statement,: this program has been copied from standard program rfkord10 this will get called from f.27 -----------------------------------------------------------------,r2r,customerinvoicing&ar(mbil),fi,reporting,True,True,True
+294,print program: account statement,report-header =======================================================================,r2r,customerinvoicing&ar(mbil),fi,reporting,True,True,True
+295,idoc invoice listing,& report zfap_idoc_invoice_listing &,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+296,job to build table zr2r_on_transit with transfer posting,& report zimwm_stock_in_transit_hist &,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,False
+297,master sap cost collector table,& zmppm_mstcostcoll & &--------------------------------------------------------------------- & this is to get the data from table zmpp_mstcostcoll and populate the & bukrs based on the condition ---------------------------------------------------------------------- modification log:,r2r,customerinvoicing&ar(mbil),co,costaccounting&control,False,True,True
+298,customer invoice approval,": this program is for a supervisors to view, then decide whether the customer invoice to be approved/rejecred. those that do not have right to approve/reject can view the worklists also. -----------------------------------------------------------------",r2r,customerinvoicing&ar(mbil),ar,accountsreceivable&incomingpayments,True,True,True
+299,ap grir reconciliation report,: this program is used to identify the open reconciliation items in the grir clearing account at the end of the month. this report will be also be used by the field users to identify invoices awaiting receipts for payment. -----------------------------------------------------------------,r2r,vendorinvoicing&ap,ap,inventoryaccounting,True,True,True
+300,maintain billing due list,: this is a copy of vf04 report with custom enhancements (gui status zvkdfs_alv is copied to function group 'z_r2r_reports') -----------------------------------------------------------------,r2r,customerinvoicing&ar(mbil),ar,customermaintenance&managecredit,True,False,False
+301,p2p - invoice variance report,: report to determine variance between invoice and purchase orders -----------------------------------------------------------------,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+302,r2r_128_mbil_sales_orders,& report zr2r_mbil_sales_orders &,r2r,vendorinvoicing&ap,ap,vendorinvoicing,False,False,False
+303,international payment medium - payment orders by edi,: this report is used to resend ach remittance (this is a copy of report zfaprffoedi1 used in f110) -----------------------------------------------------------------,r2r,vendorinvoicing&ap,ap,payable&outgoingpayments,True,True,True
+304,maintain billing due list,: this is a copy of vf04 report with custom enhancements (gui status zvkdfs_alv is copied to function group 'z_r2r_reports') -----------------------------------------------------------------,r2r,customerinvoicing&ar(mbil),ar,customermaintenance&managecredit,True,True,True
+305,dp91/dmr billed & unbilled report,& zr2r_ar_unbill_rep &--------------------------------------------------------------------- & &--------------------------------------------------------------------- &--------------------------------------------------------------------- this displays billed and unbilled ----------------------------------------------------------------------,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+306,usa: withholding tax report for 1099-misc,official records on server/pc -> main purpose of report !!! if not downlaoded through alv buttons earlier,r2r,vendorinvoicing&ap,ap,1099taxwithholding/reporting,True,True,True
+307,list of parked documents,in sap systems for testing s (note 569650),r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+308,treasurers cash report,: treasure cash report -----------------------------------------------------------------,r2r,treasuryoperations,tr,bankmanagement,True,True,True
+309,duplicate payment mis-match report,& report zfap_duplicate_payment_mis &,r2r,vendorinvoicing&ap,ap,payable&outgoingpayments,True,True,True
+310,ryan eextract version 6.3,"report zfr_eextract developer: d.becker, ryan description: the ryan eextract selects accounting documents for use in review and audit. it's also possible to download selected master data and configuration data.",r2r,generalaccountingconsolidation&reporting,fi,generalaccounting,True,True,True
+311,new control report for interface 755,audit s. this report is a copy of existing report zfpsr_if755_ctrl_rep version ed3k914855 with code refactored for performance. &----------------------------------------------------------------,r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,True,True,True
+312,out of variance report,": this report is used to process invoices; remove price block, and update po quantity and price -----------------------------------------------------------------",r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+313,report to display invoice output process log,& report zsd_invoice_mail_log,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+314,sales order approval report,: to add an approval procedure to the sales order process ----------------------------------------------------------------------,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+315,report to extract documents for 1099 misc reporting,& zfap_r_1099__documents & &--------------------------------------------------------------------- title : to fetch documents which are relevant for 1099 misc tax ing,r2r,vendorinvoicing&ap,ap,1099taxwithholding/reporting,True,True,True
+316,document status analysis,& report zr2r_document_status &,r2r,generalaccountingconsolidation&reporting,gl,generalaccounting,True,True,True
+317,display list of invoice documents,& rmmr1mdi & \ &--------------------------------------------------------------------- & the generates an output list of posted and/or parked & invoices. & - additional selection criteria in expert mode & o display fi-document number & o invoice document with posting to g/l account & o invoice document with posting to material & o select-options plant &--------------------------------------------------------------------- &--------------------------------------------------------------------- & print program - zmprf_rmmr1mdi &--------------------------------------------------------------------- & e1dk903357 - print program for invoice reprint fax coversheet & &--------------------------------------------------------------------- ----------------------------------------------------------------------,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+318,environmental remediation: roll-over of un-used budgets,& zr2r_ps_envrem_yr_end_rollover & &--------------------------------------------------------------------- to roll over un-used project budgets ----------------------------------------------------------------------,r2r,fixedasset&projectaccounting,ps,projectaccountingforenvironmentalremediation,True,True,True
+319,vendor invoice upload creation with wht code,: upload historical data fi data for wht tax mismatch. -----------------------------------------------------------------,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+320,invoice payment average,& zr2r_invoice_payment_average & &--------------------------------------------------------------------- displays the average time taken to pay a sales invoice by the customer ----------------------------------------------------------------------,r2r,customerinvoicing&ar(mbil),ar,accountsreceivable&incomingpayments,True,True,True
+321,automatic check or adjustment of values (projects),selection by positions?,r2r,fixedasset&projectaccounting,ps,projectaccountingforenvironmentalremediation,True,True,True
+322,invoice attachment link,& report zr2r_ar_inv_attach,r2r,customerinvoicing&ar(mbil),ar,customerinvoicing,True,True,True
+323,accounts payable 1099 report,"& :since the 1099 process involves both balance sheet and p&l accounts, & there is no single standard sap report that provides all of the & required information. &--------------------------------------------------------------------- change history ----------------------------------------------------------------------",r2r,vendorinvoicing&ap,ap,1099taxwithholding/reporting,True,True,True
+324,if755 remediation file creation program based on cji3 output,"& zfps_if755_remediation_file & &--------------------------------------------------------------------- & this can generate if755 file based on coep and cobk table data & if cji3 file option is used it will require fields as below format, & documentno,posting row,wbs element,doc. date,postg date,doctyp, & company code, cost element, value trancurr in tab delimited .txt file & + controlling area and posting dates on selection screen & else you can input the, controlling area, wbs, coep timestamp on selection screen &---------------------------------------------------------------------",r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,True,True,True
+325,interface to send invoices to citi bank portal,& zfap_cust_sales_invoices & fit to hana upgrade &--------------------------------------------------------------------- title : interface to send invoice to citi bank portal,r2r,customerinvoicing&ar(mbil),ar,customerinvoicing,True,True,True
+326,journal entry upload,: this program is to upload journal entry data file and auto create journal entries into sap. -----------------------------------------------------------------,r2r,generalaccountingconsolidation&reporting,gl,generalaccounting,True,True,True
+327,environmental remediation project: phase cost planning & budgeting,chg mm/dd/yy author transport 01. 12/12/2017 dyku2 ed3k918726 rfc#1707339,r2r,fixedasset&projectaccounting,ps,projectaccountingforenvironmentalremediation,True,True,True
+328,billing plan report,: to display and modify the billing plan details ----------------------------------------------------------------------,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+329,table access,: this program is used to provide the access to the tabels by substream level using the substream transaction -----------------------------------------------------------------,r2r,customerinvoicing&ar(mbil),ap,vendormaintenance,False,True,True
+330,maintain escalation indexes,: to upload an excel file containing the price index and to create a new index ----------------------------------------------------------------------,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+331,master sap cost collector from sap,"zmppi_mastercostcollector p2p - master sap cost collector table this specific requirement consist on the creation of a z table that store relevant data from cost collectors in sap (wbs, pm –pp and io orders) and perform the translation, base on transformation rules and logic, to a 6 digit characters and relevant data, in order to allow ns heritage systems to have a single source of valid cost collector in sap. ----------------------------------------------------------------------",r2r,managementcostaccounting,co,costaccounting&control,True,True,True
+332,material consumption,& report zmim_material_consumption &,r2r,vendorinvoicing&ap,mm,inventoryaccounting,True,True,True
+333,list of billing documents,: standard sap transaction vf05n is used to report on invoices that have been created in sap. the current selection screen and result screen needs to have additional fields added to better enable the miscellaneous billing department with gathering information on invoices -----------------------------------------------------------------,r2r,customerinvoicing&ar(mbil),ar,customerinvoicing,True,True,True
+334,program for create project,purpose: this interface is required to create approved capital projects from the powerplant system to sap. it will also update the status of partially billable projects to approved or rejected based upon the approval/rejection in powerplant,r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,True,True,True
+335,multiple bill-to workbench,: to add support for handling multiple bill-to sales orders ----------------------------------------------------------------------,r2r,customerinvoicing&ar(mbil),ar,accountsreceivable&incomingpayments,True,True,True
+336,dms 132: mbil - open projects load,& zfpsd_mbil_projects_load & &---------------------------------------------------------------------,r2r,fixedasset&projectaccounting,ps,projectaccountingforenvironmentalremediation,True,True,True
+337,vendor extract for apex,": this program extracts vendor records into an output file based upon the selection criteria input. description: this is an outbound interface that is run in batch mode to extract the vendor records have been changed on a specific date or date range. ---------------------------------------------------------------------- change log: date name description -------- ----------------- -------------------------------------- 10/01/03 matthew rennie/ initially written by ibsc, inc essa faal ibsc@triad.rr.com -------- ----------------- -------------------------------------- 08/15/05 matthew rennie/ use po box if no street address essa faal exists. -------- ----------------- -------------------------------------- 08/15/06 essa faal add | as delimiter option. -------- ----------------- -------------------------------------- 11/03/06 matthew rennie changes: 1) remove nested selects 2) remove occurs statements 3) remove with header line statements 4) replace like with type -------- ----------------- -------------------------------------- 12/11/06 essa faal/ changes: matthew rennie 5) remove selects within loops 6) replace 'move x to y' with 'y = x' 7) replace ws_download w/gui_download 8) check sy-subrc after each select 9) remove all ""dead code"" 10) other performance tuning -------- ----------------- -------------------------------------- 01/12/07 matthew rennie fix call to gui_download -------- ----------------- -------------------------------------- 01/31/07 matthew rennie fix to updating of zjbaapex_log -------- ----------------- -------------------------------------- 02/21/07 matthew rennie make header record optional -------- ----------------- -------------------------------------- 05/19/08 matthew rennie rework for efficiency add (commented out) modexits -------- ----------------- -------------------------------------- 06/22/09 matthew rennie get address from adrc if lfa1-stcd2 is populated use it... ...otherwise use lfa1-stcd1 -------- ----------------- -------------------------------------- 08/29/10 matthew rennie remove obsolete code -------- ----------------- -------------------------------------- 02/10/11 matthew rennie change f4 option on directory -------- ----------------- -------------------------------------- 06/24/11 matthew rennie extract vendors created in date range -------- ----------------- -------------------------------------- 06/28/11 matthew rennie allow for bom on unicode file -------- ----------------- -------------------------------------- 10/14/11 matthew rennie make vendor source prefix a parameter -------- ----------------- -------------------------------------- 02/08/12 matthew rennie allow for 3 character vendor prefix -------- ----------------- -------------------------------------- 03/27/12 matthew rennie allow for email addrs in adr6 -------- ----------------- -------------------------------------- 04/16/13 matthew rennie use house_num1 from adrc -------- ----------------- -------------------------------------- 05/01/13 matthew rennie allow for download of all address data -------- ----------------- -------------------------------------- 06/18/13 matthew rennie changes as request by ticket 54745: default delimeter to pipe ('|') -------- ----------------- -------------------------------------- 07/18/13 matthew rennie correct s_ktokk selection/nse09",r2r,vendorinvoicing&ap,ap,vendormaintenance,True,True,True
+338,zload_mrpcombined - load mrp views and mrp areas,& zload_mrpcombined & &---------------------------------------------------------------------,r2r,customerinvoicing&ar(mbil),mm,inventoryaccounting,False,True,True
+339,uncashed check,: generate reminder notification program to vendors for checks not cashed over six months from the date of issue ----------------------------------------------------------------------,r2r,vendorinvoicing&ap,ap,payable&outgoingpayments,True,True,True
+340,nan,purpose: this program is used for migrating gl balances for previous fiscal year,r2r,generalaccountingconsolidation&reporting,gl,generalaccounting,True,False,True
+341,interface to send invoice balance to third party system bpa,& zfar_i_invoice_balance & &--------------------------------------------------------------------- title : interface to send invoice balance information,r2r,customerinvoicing&ar(mbil),ar,reporting,True,True,True
+342,control report for interface 755,& : capital accounting also requires a control report to determine what information should have been sent to sap from interface 755. this report will be used for audit s ----------------------------------------------------------------------,r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,True,True,True
+343,nan,"purpose: this program updates prices for cost center and activity type combinations. initially the program was designed to create parallel sessions based on the number of availa- -ble work processes. but apparantly the activity alloc- -ation program cannot be run in parallel or in other words, we will run into lock issues, if we try to upda- -te the different activities for the same cost object (in our case cost center). there are numerous oss notes explaining the locks for the activity/cost center combo issue 79634, 644364, 940407 to name a few. because of this we just divide the data into smaller packets and process it (to avoid memory issues).",r2r,managementcostaccounting,co,costaccounting&control,True,True,True
+344,check extract creation,"in rfchkn10, company code is now a select option",r2r,vendorinvoicing&ap,ap,vendormaintenance,True,True,True
+345,misc billing journal entry report,: this report will provide the information needed for the misc billing department to make the correcting journal entries for the damage claim process as well as the partially billable/partially expense process. -----------------------------------------------------------------,r2r,customerinvoicing&ar(mbil),ar,reporting,True,True,True
+346,international payment medium - check (with check management),header ----------------------------------------------------------------------,r2r,vendorinvoicing&ap,ap,payable&outgoingpayments,True,True,True
+347,sales: adobe print program,& zmsd_sdoc_print01 &--------------------------------------------------------------------- & print program for sales documents &--------------------------------------------------------------------- ----------------------------------------------------------------------,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+348,international payment medium - payment orders by edi,header ----------------------------------------------------------------------,r2r,vendorinvoicing&ap,ap,payable&outgoingpayments,True,True,True
+349,cashed checks,"short description of the program:this displays an classic alv and heirarchy alv's appended to it and finally another classical alv for displaying the statistics. fm's used 'reuse_alv_list_display', classic alv 'reuse_alv_hierseq_list_display' heirarchy alv strcutures created: fagl_s_rfebck00_list1, ""file details fagl_s_rfebck00_list2, ""check header fagl_s_rfebck00_list2_detail ""check detail fagl_s_rfebck00_stats ""statistics fagl_s_rfebck00_post ""posting header fagl_s_rfebck00_postdet ""posting detail fagl_s_rfebck00_hr ""hr checks posting  modification history  description : clone changes for upgrade transport : ed3k913172 date : 07/07/2016 changed by : fvtwc   description : hanatization changes(order by primary key added in select statement) transport : ed3k915615 date : 03/04/2017 changed by : t0a2f   description : hanatization changes (select single is possibly not unique) transport : ed3k915615 date : 04/04/2017 changed by : j00vz   description : clone changes transport : ed3k915615 date : 06/04/2017 changed by : f7ucg   mod# date racf# details 005 11/27/2018 xg0dq im# im02200326 charm# 6000006402 tr# ed3k923816 desc: if732check encash mail notification ",r2r,vendorinvoicing&ap,ap,payable&outgoingpayments,True,True,True
+350,payroll accrual posting,: this program is to read cats (cross application time sheet) data and create data for accrual posting -----------------------------------------------------------------,r2r,generalaccountingconsolidation&reporting,gl,generalaccounting,True,True,True
+351,aggregated accrual of unposted transactions (multiple expense lines),& : xponential accrual program &---------------------------------------------------------------------,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+352,display index file data,: display index file data ----------------------------------------------------------------------,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+353,create appropriation request,& report zr2r_create_app_req &,r2r,fixedasset&projectaccounting,ps,projectaccountingforenvironmentalremediation,True,False,True
+354,escalation rates maintainence main screen,": the main screen will have a button that takes the users to one of the three areas of the workbench (maintain indexes, maintain escalation rates and maintain recurring agreements) ----------------------------------------------------------------------",r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+355,generic control total report,: this program is used to geerate the generic general report -----------------------------------------------------------------,r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,True,True,True
+356,rpms ar payment data to sap,zfari_rpms_ar_payment_data r2r - rpms - ar payment data -fromsap provide rpms with a file to deliver payroll data ----------------------------------------------------------------------,r2r,customerinvoicing&ar(mbil),ar,accountsreceivable&incomingpayments,True,True,True
+357,mass reverse duplicate invoice,& zar2rr_duplicate_invoice_mr8m creation date: 02/01/2012 description: this program will mass reverse invoice documents transaction: n/a output: none ---------------------------------------------------------------------------------------------------,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+358,duplicate invoice report,"& : this program will do a comparison between documents of the & specific fields. when these fields are equal, & the document needs to be flagged as & potential duplicate and be included in the report. &---------------------------------------------------------------------",r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+359,upload remittance details in the payment advice,& zr2r_payment_advice_ & &--------------------------------------------------------------------- mass upload of advance payment used bdc call transaction method to upload fbe2 advance payment entry ----------------------------------------------------------------------,r2r,vendorinvoicing&ap,ap,payable&outgoingpayments,True,True,True
+360,transfer vendor master data from source company code: send,"der rfbikr10 sucht gemäss der selektion die zu extrahierenden quelldaten aus dem kreditorenstamm und schreibt sie im batch-input vorformat in die interne tabelle file1. 1) daten direkt übertragen: die daten von file1 werden in das globale memory geschrieben und der rfbikr20 aufgerufen. dieser überträgt die daten in die selektierten buchungskreise. 2) daten auf sequentielle datei schreiben die daten von file1 werden in die sequentielle datei ds_name geschrieben. ruft der anwender nun rfbikr20 auf und gibt ds_name ein, kann er die daten in verschiedene andere buchungskreise übertragen. hinweis: hiermit besteht die möglichkeit, daten auch in externe buchungskreise zu übertragen. bei diesem verfahren werden auch die allgemeinen daten mitübertragen. in externe buchungskreise können allerdings nur kreditoren übertragen werden, deren kontengruppe mit externer nummernvergabe arbeitet. ---------------------------------------------------------------------- title transfer vendor master data from source company code: send ---------------------------------------------------------------------- ---------------------------------------------------------------------- program description: -------------------------------------------------------------------- change history of alv development 07/05/2004 : retrofit program description: if create log is cheked in the selection screen,logs will be displayed as per the selection. function modules used are reuse_alv_list_display ""to display list reuse_alv_fieldcatalog_merge "" to get field catalog reuse_alv_events_get ""to get possible table of events bal_log_create ""to create application log bal_log_msg_add ""to add messages to the application log bal_dsp_log_display ""to display application log bal_dsp_log_print "" to display application log in batch mode --------------------------------------------------------------------- ---------------------------------------------------- description : clone changes for upgrade transport : ed3k913172 date : 12/07/2016 changed by : gjhra ---------------------------------------------------- ---------------------------------------------------- description : actual parameter change transport : ed3k915615 date : 30/03/2017 changed by : j00vz ---------------------------------------------------- ---------------------------------------------------- description : clone changes for upgrade transport : ed3k915659 date : 05/04/2017 changed by : f7ucg ---------------------------------------------------- ------ standard-rahmentexte für selektionsbild ------------------------ begin of clone changes by gjhra tr#ed3k913172 12/07/2016 include zfap_rfdbrmac. ""not deleted , but clone as it is same as standard",r2r,misc,ap,vendormaintenance,False,True,True
+361,program to send ar agreement details to rpms,& zfar_rpms_ar_agreementdetails & this program will send agreement details to rpms ------------------------------------------------------------------------,r2r,customerinvoicing&ar(mbil),ar,accountsreceivable&incomingpayments,True,True,True
+362,diesel fuel taxes paid on edi invoices,: this program is to identify diesel fuel taxes paid via edi invoices based on sac codes. this report will help to identify the specific diesel fuel taxes paid at the month end to the vendor. -----------------------------------------------------------------,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+363,evaluation of change logs,"& rsvtprot & &--------------------------------------------------------------------- & auswertung der protokolldatenbank &--------------------------------------------------------------------- korrekturen: uf200398 form check_join, view_get_dic: nur in der stückliste vorkommende tabellen werden zur über- prüfung der joinbedingung herangezogen. verworfene gehen auf jeden fall nach log_kroepfchen. uf230398 f4-hilfe sowohl bzgl. tabellen als auch bzgl. customizing- objekten. uf2303982 log. transportobjekte: evtl. vorhandene markiereinträge ignorieren. uf2303983 tabellenauswertung: pool- und clustertabellen unterstützen. uf010498 verzweigungsliste ""techn. information"": überschrift für per user-exit gepflegte tabellen nur, wenn welche da sind. uf0104982 statusabfrage auch aus liste. uf080498: änderungen in den tabellenstrukturen unter verwendung des fb dd_namtab_hist abgefangen. neue form-routinen: table_get_dic, logs_modernise, tab_field_modernise uf200498 form logs_get_without_marks: fehler bei indexerstellung für db_logs beseitigt. uf290498 form tab_textab_make: falsches kopieren auf sortierte tabelle uf040598 form logs_get_without_marks: stückliste gemerkt (performance) uf070598 deckblatt ans ende gerückt (form first_page_make) keine kopfinformationen für einzelne objekte mehr ausgeben, falls keinerlei protokolldaten gefunden wurden. statusanzeige innerhalb at selection screen uf120598 vergleich der selektionstabellen aus dem memory und aus dem selektionsbild: auch bzgl. länge uf280598 text objektbeschreibung für typ s bei statusabfrage finden uf020698 form logs_get_without_marks: mehrfache verwendung von proto- kollen unterbunden. besorgt jetzt bei cust.-objekten ohne markiereinträgen richtige laufzeitinfo zum vergleich. uf030698 vergleichsdatensätze nur dann von der db lesen, wenn sie wirklich benötigt werden. uf160698 fehler im aufruf des fb convert_field_to_host beseitigt. uf220698 problem: einzelne texttabellenänderungen wruden ignoriert. uf160798 x030l-keylen berücksichtigt als offset für funktionsfelder keine ausrichtung --> wird in revise_table_struc durch offset des 1. funktionsfeldes ersetzt. uf270798 readlog_vgl nicht mehr in form vgl_data_find zurückgesetzt. interne meldung nr. 1566591/1998 uf250898 vergleichsdatensätze werden nur dann gebaut, wenn sie aus einem zeitraum später als das ausgewählte intervall stammen. -->markierte zeilen verschoben. uf260898 konvertierung in maschinenabhängige schreibweise (form get_table_field): konvertierung des feldsymbols konvertiert auch db_logs-logdata => doppelte konvertierung bei verwendung als vergleichs-datensatz. uf180998 get_table_field: bei texttabellenfeldern offset extra berechnen uf250899 auswahl von intervallen für tabellennamen im einstiegsbild ausschließen (kundenmeldung 62962/1999) uf031199 konvertierung interne --> externe schreibweise über funktionsbaustein view_conversion_output (form fields_write) kundenmeldungen 384716/1999 und 150260/1999 uf041199 prüfung der view-joinbedingungen: negativer ausgang teilw. fehlerhaft. offset der tabellen-funktionsfelder zu einem view aus tabellen-nametabinfo statt aus view-nametab. kriterien für ausgabe des änderungsdatums im listenkopf korrigiert. uf241199 form translations_make: abbruch, wenn sprachschlüssel erstes schlüsselfeld der texttabelle ist. uc unicode-umstellung uf37894/2001 form translations_make: abbruch, wenn textfeld in view anders heißt als in texttabelle. unerwünschter zeilenvorschub, wenn ausgabelänge der entitätenfelder und ausgabelänge des schlüssels maximal. uf133143/2001 kein view-eintrag innerhalb eines viewclusters gefunden: keine kopfzeile für nicht vorhandene protokolle. uf119440/2002 codepage-konvertierung eingebaut (hw ) &---------------------------------------------------------------------",r2r,misc,basis,nan,True,True,True
+364,document list,user actions to be handled by this,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+365,vendor contacts recording,": this program loads contact persons for vendors through a recording of the map1 transaction. ----------------------------------------------------------------- technical consultant: pedro acevedo date: 07 january 2011 ----------------------------------------------------------------- revision history: ------------ ------ -------------------------------------------- date/version user comments ------------ ------ -------------------------------------------- 07 jan 2011 qbfpd 1. initial program. 24 feb 2011 qbfpd 1. adjust notes field to be of type string so we actually have the entire notes content to create the long text, and not just the truncated version that we put in parau. 01 mar 2011 qbfpd 1. we will not create any long texts here; that will be done with z_vendor_texts. ----------------------------------------------------------------- todo: merge duplicate contacts' information into a single contact todo: test run/rollback work option; check christian's program",r2r,vendorinvoicing&ap,ap,vendormaintenance,True,True,True
+366,nan,purpose: this program uploads the text for sale orders,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+367,upload vendor maintenance form,: this program is to upload the vendor maintenance form to create/change/delete the vendor -----------------------------------------------------------------,r2r,vendorinvoicing&ap,ap,vendormaintenance,True,True,True
+368,invoice printing for pmc,& zsd_invoice_pmc &--------------------------------------------------------------------- & &---------------------------------------------------------------------,r2r,customerinvoicing&ar(mbil),ar,customerinvoicing,True,True,True
+369,billing documents: adobe print program,: this program is a custom program copied from sd_invoice_print01 for a customized invoice layout. codes are in sub-routine get_custom_data. -----------------------------------------------------------------,r2r,customerinvoicing&ar(mbil),ar,customerinvoicing,True,True,True
+370,creation of mass sales order,: mass sales order creation ----------------------------------------------------------------------,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+371,dms 194:tsar projects load,& zfpsd_tsar_project_load &,r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,True,True,True
+372,propose jurisdiction from vertex rfc & update on user action,& report zr2r_jcd_check,r2r,managetaxes,tax,indirecttaxes-sales&usetax,True,True,True
+373,program zfpsi_755_saptopowerplant,zfpsi_755_saptopowerplant ----------------------------------------------------------------------,r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,True,True,True
+374,bpp: output program for dmr attachment,purpose: to modify the standard sap invoice detail form to meet ns-specific requirements,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+375,dms 195: powerplant projects load,& zfpsd_pwrplnt_projects_load & &---------------------------------------------------------------------,r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,True,True,True
+376,merging output for prefered method of communication,& report zmsdf_ad23_output_dmrn,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+377,xibuy : 16.3 user exit - user status update report,zfap_user_status_update,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+378,car repair billing - material file from sap,: this program generates the outbound file which is sent to wabtec to provide material and location information so that car repair billing system (crb) can display meaningful ns information for users to enter car repair records. ----------------------------------------------------------------------,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+379,payment list,& report rfzali30 &,r2r,vendorinvoicing&ap,ap,payable&outgoingpayments,True,True,True
+380,update metadata table for ibmcc,& zr2r_ar_inv_attach_tbl_upl &--------------------------------------------------------------------- & &---------------------------------------------------------------------,r2r,customerinvoicing&ar(mbil),ar,customerinvoicing,True,True,True
+381,report to identify individuals who receive a w-2 & 1099-misc,& :1099 w2 report &--------------------------------------------------------------------- change history ----------------------------------------------------------------------,r2r,vendorinvoicing&ap,ap,1099taxwithholding/reporting,True,True,True
+382,interface to send invoices to citi bank portal,& zfap_cust_sales_invoices & fit to hana upgrade &--------------------------------------------------------------------- title : interface to send invoice to citi bank portal,r2r,customerinvoicing&ar(mbil),ar,customerinvoicing,True,True,True
+383,sales document lpd interface,: this program calls ipos webservice and get the sales invoice created it then creates sales order in sap -----------------------------------------------------------------,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+384,irs audit report new,: this program is used to generate an accounting detail file for tax s -----------------------------------------------------------------,r2r,generalaccountingconsolidation&reporting,tax,externalauditcompliance,True,True,True
+385,if755 control report remediation,& zfps_if755_ctrlrep_remediation & &--------------------------------------------------------------------- & & &--------------------------------------------------------------------- ---------------------------------------------------------------------- description : hanatization changes(put order by primary key) transport : ed3k915615 date : 30/03/2017 changed by : j00vz ----------------------------------------------------------------------,r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,True,True,True
+386,automatic generation of settlement rules,& : this enhancement is to automatically generate settlement rules for projects ----------------------------------------------------------------------,r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,True,True,True
+387,correction program for xlgclr issue - note: 1437341,& report zf_corr_xlgclr_bseg &,r2r,generalaccountingconsolidation&reporting,fi,generalaccounting,True,True,True
+388,dms 199: mbil plan data,& zfpsd_mbil_plan_data &,r2r,fixedasset&projectaccounting,ps,customerinvoicing,True,True,True
+389,payroll accrual posting,: this program is to read cats (cross application time sheet) data and create data for accrual posting -----------------------------------------------------------------,r2r,generalaccountingconsolidation&reporting,gl,generalaccounting,True,False,True
+390,reprocess fuel chargeout request in error and email errors,: this program is a custom program which will reprocess the failed fuel charge out request mesages which are in error due to insufficient quantity for charge out goods mvoement. after that send mail to lmis user id to notify about the failed messages with error details. -----------------------------------------------------------------,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+391,retrieve agreement inventory history,& zfar_rpms_ar_agreementinvhist & this program will send invoicing history to rpms ------------------------------------------------------------------------,r2r,customerinvoicing&ar(mbil),sd,reporting,True,True,True
+392,dms 247: shop - open projects load,& zfpsd_shop_projects_load & &---------------------------------------------------------------------,r2r,fixedasset&projectaccounting,ps,capitalplanning&projectapproval,True,True,True
+393,amex ipm credit card applications,& report zftvi_amex_ipm_apply &,r2r,vendorinvoicing&ap,fi,travel&purchasecard,True,True,True
+394,irs audit report,: this program is used to generate an accounting detail file for tax s -----------------------------------------------------------------,r2r,generalaccountingconsolidation&reporting,tax,externalauditcompliance,True,True,True
+395,lockbox: bai format processing,exporting to,r2r,customerinvoicing&ar(mbil),ar,customerinvoicing,True,True,True
+396,capex not paid - material accounting,: this program is used to identify the capex amount which has not been paid. the select statement is a copy from zfap_grir report and then capex amount which has not been paid is calculated for mm -----------------------------------------------------------------,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+397,zload_mrp_areas - load mrp areas,& zload_mrp_areas & &---------------------------------------------------------------------,r2r,vendorinvoicing&ap,mm,inventoryaccounting,True,True,True
+398,automatic creation and close of expense projects,: this program is to create a new yearly projects from previous year and close the previous projects. -----------------------------------------------------------------,r2r,fixedasset&projectaccounting,ps,capitalplanning&projectapproval,True,True,True
+399,nan,: gl-posting validation ----------------------------------------------------------------------,r2r,generalaccountingconsolidation&reporting,gl,generalaccounting,True,True,True
+400,program to send ar agreement details to rpms,& zfar_rpms_ar_agreementdetails & this program will send agreement details to rpms ------------------------------------------------------------------------,r2r,customerinvoicing&ar(mbil),ar,accountsreceivable&incomingpayments,True,True,True
+401,r2r-730-parent vendor master to heritage system – from sap,start-of-selection,r2r,vendorinvoicing&ap,ap,vendormaintenance,True,True,True
+402,display duplicate receipts,& zfap_duplicate_receipts &--------------------------------------------------------------------- & this program will display duplicate receipts based on selection & criteria. this information can be used further to delete duplicate & receipts from the system manually using rpttuw02 & & to be executed in background for better performance &--------------------------------------------------------------------- ----------------------------------------------------------------------,r2r,vendorinvoicing&ap,ap,inventoryaccounting,True,True,True
+403,control report for interface 755,& : capital accounting also requires a control report to determine what information should have been sent to sap from interface 755. this report will be used for audit s ----------------------------------------------------------------------,r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,True,True,True
+404,intercompany transfer,: this program is to tag a sales order line with multiple settlement company code which will then drive an intercompany journal entry out of the invoicing company and into the respective settlement company codes. -----------------------------------------------------------------,r2r,customerinvoicing&ar(mbil),ar,customermaintenance&managecredit,True,True,True
+405,interface to send invoice balance to third party system bpa,& zfar_i_invoice_balance & &--------------------------------------------------------------------- title : interface to send invoice balance information,r2r,customerinvoicing&ar(mbil),ar,reporting,True,False,True
+406,suntrust lock box main program,purpose: the purpose of this program is to call the customised lockbox program zrfeblb00 and this program will work for both citi and suntrust bank through following tcode 1.zcitiflb2 citibank-ns & conrail a/r lockbox 2.zfarflb2 suntrust-ns & conrail a/r lockbox,r2r,customerinvoicing&ar(mbil),ar,receivables&incomingpayments,True,True,True
+407,testing,& report zmkorr01 &,r2r,generalaccountingconsolidation&reporting,fi,generalaccounting,True,True,True
+408,switch on open item management by changing master record,this is not a standard . it is only included for convenience in case it will be needed. only use it after consulting with sap. ----------------------------------------------------------------------,r2r,vendorinvoicing&ap,fi,generalaccounting,False,True,True
+409,maintain escalation rates,: to create a new escalation code which is three characters ----------------------------------------------------------------------,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+410,rpms ar payment data to sap,zfari_rpms_ar_payment_data r2r - rpms - ar payment data -fromsap provide rpms with a file to deliver payroll data ----------------------------------------------------------------------,r2r,customerinvoicing&ar(mbil),ar,accountsreceivable&incomingpayments,True,True,False
+411,ff.5 bank statement upload,purpose: this interface is required to provide medical plan enrollment and employee demographic data to anthem.,r2r,customerinvoicing&ar(mbil),tr,bankmanagement,False,True,True
+412,send damage project costs to tsar,purpose: to build an outbound file which has damage project costs that has to be sent to tsar,r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,True,True,True
+413,is0755 - sap to powerplant,& zfpsi_755_saptopowerplant2 ----------------------------------------------------------------------- program name : zfpsi_755_saptopowerplant2 title : r2r-ps - is0755 - sap to powerplant create date : 02/13/2012 release : ecc 6.0,r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,True,True,True
+414,delete old parkd documents,: this program is used to delete old parked fi documents ----------------------------------------------------------------,r2r,generalaccountingconsolidation&reporting,fi,generalaccounting,True,True,True
+415,billing plan report,: to display and modify the billing plan details ----------------------------------------------------------------------,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+416,customer activity report,"& : & the report should retrieve the list of invoices generated against & the customer or project selected along with any additional details & such as the project number, sales order type or customer & classification data. for each of these invoices, the report should & then retrieve the history of the activity against that invoice. & i.e. whether there have been payments, cancellations of write-offs. &--------------------------------------------------------------------- ---------------------------------------------------------------------- change history ----------------------------------------------------------------------",r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+417,analysis status object with multiple sequence numbers,& zstseqnr & &--------------------------------------------------------------------- & status management : analyse status objects with multiple sequence & numbers and allow manual repair (delete status) & &---------------------------------------------------------------------,r2r,generalaccountingconsolidation&reporting,fi,generalaccounting,True,True,True
+418,dms 299: customer hierarchy,": this program loads customer hierarchy nodes. ----------------------------------------------------------------- technical consultant: pedro acevedo, christian aviles date: 16 march 2011 ----------------------------------------------------------------- revision history: ------------ ------ -------------------------------------------- date/version user comments ------------ ------ -------------------------------------------- 16 mar 2011 qbfpd 1. initial program. -----------------------------------------------------------------",r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+419,delete parked documents in fi,: delete fi parked documents in sap ----------------------------------------------------------------------,r2r,generalaccountingconsolidation&reporting,fi,generalaccounting,True,True,True
+420,is170 - car repair bill charges - idoc rpeort,"zfari_170_carrepair_charges the is used to generate the for is170 - car repair bill charges. as this interface is designed to use idoc, in order to send out an error , we need to schedule this program to run daily. this program will retrieve the error and successful idoc posting based on the selection ----------------------------------------------------------------------",r2r,customerinvoicing&ar(mbil),ap,vendorinvoicing,True,False,False
+421,update zftx_tax table in background & send email notification,& report zr2r_ftx_tbl_upd_in_bg,r2r,generalaccountingconsolidation&reporting,gl,internalauditcompliance,True,True,True
+422,nan,purpose: this program creates a cross reference between legacy and sap customers/vendors. the entries will be created in table zcust_vend_xref. alternatively the table can also be maintained manually using transaction zcv_xref the cross reference would be between the sap customer/ vendor number and the unconsolidated legacy customer/ vendor number,r2r,vendorinvoicing&ap,ap,vendormaintenance,True,True,True
+423,ps approval report,& report zps_approval_report &,r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,True,True,False
+424,report to count number of vendor for form to be counted,: this report will give count to user for number of forms printed for 1099 misc and 1099 int and if any diffrence between count. -----------------------------------------------------------------,r2r,vendorinvoicing&ap,ap,1099taxwithholding/reporting,True,True,False
+425,report for invoices unblocked without gr,: explain the of the code in around 100 words. ----------------------------------------------------------------------,r2r,vendorinvoicing&ap,ap,reporting,True,True,True
+426,correction program: delete co document,& zkacor21 & &--------------------------------------------------------------------- & & &---------------------------------------------------------------------,r2r,generalaccountingconsolidation&reporting,co,generalaccounting,False,True,False
+427,stock in transit report,& zimwm_stock_in_transit_ &--------------------------------------------------------------------- & &--------------------------------------------------------------------- this displays list of material which are in stock in transit ----------------------------------------------------------------------,r2r,vendorinvoicing&ap,ap,inventoryaccounting,True,True,True
+428,delete the po invoice idoc for diesel,& report zmpr_delete_diesel_po_invoice &,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+429,nan,: functional area substitution from accounting document -----------------------------------------------------------------,r2r,generalaccountingconsolidation&reporting,gl,generalaccounting,True,True,True
+430,apc deck - 03 nec (natural expense codes),"zfgli_apc_deck03_nec r2r - apc deck - 03 nec (natural expense codes) - fromsap interface must scan operating expense accounts, interest expense accounts, other income accounts, and other expense accounts by range, parse out characters 3 - 5, and build a list of unique occurrences. ----------------------------------------------------------------------",r2r,generalaccountingconsolidation&reporting,co,managementreporting,True,False,False
+431,nan,& zfari_rpms_ar_cust_data r2r-ar rpms - ar customer data - fromsap displays information for active customers found on table kna1 ----------------------------------------------------------------------,r2r,customerinvoicing&ar(mbil),ar,reporting,True,True,True
+432,customisation of main lockbox program rfeblb00,shows the result in form of hierachical so used the fm 'reuse_alv_hierseq_list_display' for line display --------------------------------------------------------------------- change history of alv development after walldorf review & suggestions program description: sales documents with periodic billing: update dates,r2r,customerinvoicing&ar(mbil),ar,reporting,True,True,True
+433,program to send agreement increase info to rpms,& zfar_rpms_ar_agreementicrease & this program will send agreement increase info to rpms ------------------------------------------------------------------------,r2r,customerinvoicing&ar(mbil),ar,customerinvoicing,True,True,True
+434,program zfgl_pp_to_gl_recon,& zfgl_pp_to_gl_recon program to execute in background to: reconcile balance sheet account balances between powerplant and sap general ledger ----------------------------------------------------------------------,r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,True,False,False
+435,zverify292 - utility program to find missing load records,nan,r2r,generalaccountingconsolidation&reporting,fi,generalaccounting,True,True,True
+436,correction program: reverse co document in different period,nan,r2r,managementcostaccounting,co,costaccounting&control,True,True,True
+437,final bill status synchronization sd -> ps,nan,r2r,fixedasset&projectaccounting,ps,projectaccountingforenvironmentalremediation,True,True,True
+438,citibank lockbox program for nor,nan,r2r,customerinvoicing&ar(mbil),ar,customerinvoicing,True,True,False
+439,program zfps_sap_to_pp_project_create,nan,r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,True,True,True
+440,citibank lockbox issue for citi,nan,r2r,customerinvoicing&ar(mbil),ar,customerinvoicing,True,True,False
+441,send payment information to heritage system,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+442,contract start/end fix for dms128,nan,r2r,customerinvoicing&ar(mbil),ar,customerinvoicing,True,True,True
+443,travel alert 45days to manager,nan,r2r,vendorinvoicing&ap,fi,travel&purchasecard,True,True,True
+444,accounts payables capex not paid report,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,False
+445,xibuy : 16.3 user exit - user status update report.,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+446,ar notes from sap to rpms,nan,r2r,customerinvoicing&ar(mbil),ar,reporting,True,True,True
+447,transworks vendor master data change and create notification,nan,r2r,vendorinvoicing&ap,ap,vendormaintenance,True,True,True
+448,extend billing plan dates and calculate escalation,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+449,invoicing party vendor report,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,False
+450,amex ipm credit card address changes,nan,r2r,vendorinvoicing&ap,hcm,travel&purchasecard,True,True,True
+451,zftvi_amex_ipm_accgchgs,nan,r2r,vendorinvoicing&ap,hcm,travel&purchasecard,True,True,True
+452,z_note496506,nan,r2r,generalaccountingconsolidation&reporting,fi,generalaccounting,True,True,True
+453,maintain recurring agreement,nan,r2r,customerinvoicing&ar(mbil),ar,customerinvoicing,True,True,False
+454,quarterly liability revisions report,nan,r2r,fixedasset&projectaccounting,ps,projectaccountingforenvironmentalremediation,True,True,True
+455,invoice customer portal (fm the customer base),nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+456,vendor generate w9 forms,nan,r2r,vendorinvoicing&ap,ap,1099taxwithholding/reporting,True,True,True
+457,change all washed or pending wash status to unapproved.,nan,r2r,vendorinvoicing&ap,ap,inventoryaccounting,True,True,True
+458,create joint facilities xref table,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,False,False,False
+459,ap edi vendor contact report,nan,r2r,vendorinvoicing&ap,ap,vendormaintenance,True,True,False
+460,nan,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,False,False,False
+461,vendor texts load,nan,r2r,vendorinvoicing&ap,ap,vendormaintenance,True,True,True
+462,amex ipm credit card cancellations,nan,r2r,vendorinvoicing&ap,hcm,travel&purchasecard,True,True,True
+463,oss note 36353: report zhw36353,nan,r2r,generalaccountingconsolidation&reporting,fi,generalaccounting,True,True,True
+464,auto release of po invoices with qty variance - im00443589,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+465,payment information report for power plant system,nan,r2r,vendorinvoicing&ap,ap,supplierinvoicingandpayments,True,True,True
+466,program to delete entries from custom tables,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,False,False,False
+467,travel alert 7days,nan,r2r,vendorinvoicing&ap,travel,travel&purchasecard,True,True,True
+468,nan,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,False
+469,citibank lockbox report for additonal two fields,nan,r2r,customerinvoicing&ar(mbil),ar,lockboxintegration,True,True,True
+470,post temporary storage data call,nan,r2r,vendorinvoicing&ap,ap,supplierinvoicingandpayments,True,True,True
+471,nan,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,False,False,False
+472,zload_ftx_tax - load tax table zftx_tax,nan,r2r,vendorinvoicing&ap,ap,indirecttaxes-sales&usetax,False,False,True
+473,report zfap_xibuy_check_inactive,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+474,extend billing plan dates and calculate escalation,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,False,True
+475,e-mail notification when the recurring template expires,nan,r2r,vendorinvoicing&ap,ap,vendormaintenance,True,True,True
+476,payroll accrual download,nan,r2r,generalaccountingconsolidation&reporting,gl,generalaccounting,True,True,True
+477,generic withholding tax reporting,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,False,False
+478,delete parked document,nan,r2r,generalaccountingconsolidation&reporting,gl,generalaccounting,True,False,True
+479,program zwf_yearend_invoice_trigger,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+480,program zfapd295_vendor_contacts_load,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,False,False,False
+481,data upload program for capex % input per gl,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+482,dms 266:tsar plan data load,nan,r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,True,True,True
+483,pc to sap directory file interface,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+484,data upload program for capex % input per wbs,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+485,report to delete unwanted wbs elements,nan,r2r,fixedasset&projectaccounting,ps,capitalplanning&projectapproval,True,True,True
+486,create bkpf entry from vbkpf table,nan,r2r,generalaccountingconsolidation&reporting,fi,generalaccounting,True,True,True
+487,joint facilities - send invoice status file from sap,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,False,False
+488,interface to send customer balance to third party system bpa,nan,r2r,customerinvoicing&ar(mbil),ar,customerinvoicing,True,True,True
+489,close 7 years old projects,nan,r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,True,True,True
+490,payment information report for datagain software,nan,r2r,vendorinvoicing&ap,ap,directtaxpropertytax,False,False,True
+491,outbound interface(to bruin) program for if2161,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+492,refresh the name and payment terms of the table zfap_edi820txp,nan,r2r,vendorinvoicing&ap,ap,vendormaintenance,True,True,True
+493,1099 taxcode uplaod program,nan,r2r,vendorinvoicing&ap,ap,1099taxwithholding/reporting,True,True,True
+494,get cost centers and their chart of accounts,nan,r2r,generalaccountingconsolidation&reporting,co,generalaccounting,True,True,True
+495,validate 1099 forms count for misc and int vendor count,nan,r2r,vendorinvoicing&ap,ap,1099taxwithholding/reporting,True,True,True
+496,nan,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,False,False,False
+497,workflow message notification,nan,r2r,generalaccountingconsolidation&reporting,fi,generalaccounting,True,True,True
+498,update cost center on so,nan,r2r,generalaccountingconsolidation&reporting,co,generalaccounting,False,True,False
+499,joint facilities - send invoice status file from sap,nan,r2r,customerinvoicing&ar(mbil),sd,customerinvoicing,True,True,True
+500,amex cards used for personal use,nan,r2r,vendorinvoicing&ap,ap,travel&purchasecard,True,True,True
+501,annual manual journal entry report for kpmg,nan,r2r,generalaccountingconsolidation&reporting,fi,generalaccounting,True,True,True
+502,create internal orders,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,False,False,False
+503,nan,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,False,False,False
+504,documents relevant for 1099 misc tax reporting,nan,r2r,vendorinvoicing&ap,ap,1099taxwithholding/reporting,True,True,True
+505,upload aar index rate to z table,nan,r2r,customerinvoicing&ar(mbil),ar,reporting,True,True,True
+506,generate apc deck extract from sap to load into mainframe idms table,nan,r2r,managementcostaccounting,co,managementreporting,True,True,True
+507,extract invoices for joint facilities,nan,r2r,customerinvoicing&ar(mbil),ar,reporting,True,True,True
+508,deck 59 account by company code,nan,r2r,generalaccountingconsolidation&reporting,fi,generalaccounting,True,False,True
+509,cancel early archiving workflows - ts90000066,nan,r2r,generalaccountingconsolidation&reporting,gl,generalaccounting,True,True,True
+510,xibuy: delete processed files from application server,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+511,causality claim manual check errors 1000,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+512,extract customer accounts receivables open and closed items,nan,r2r,customerinvoicing&ar(mbil),ar,reporting,True,True,True
+513,r2r additional fields for vendor master,nan,r2r,vendorinvoicing&ap,ap,vendormaintenance,True,True,True
+514,report to send email to ap team if payment proposed in more than $50m,nan,r2r,vendorinvoicing&ap,ap,supplierinvoicingandpayments,True,True,True
+515,report to send grir data with text file,nan,r2r,vendorinvoicing&ap,ap,supplierinvoicingandpayments,True,True,True
+516,gl and cost center detail,nan,r2r,generalaccountingconsolidation&reporting,co,generalaccounting,True,True,True
+517,create envrem project for im-appropriation request,nan,r2r,fixedasset&projectaccounting,ps,projectaccountingforenvironmentalremediation,True,True,True
+518,program to update fields of tables for parked invoices deletion,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,False,False,False
+519,764 parent invoice,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+520,external vendors - utility_invoices from cass - error reporting,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+521,clear wbs block,nan,r2r,fixedasset&projectaccounting,ps,capitalprojectaccounting,True,True,True
+522,ihb,nan,r2r,treasuryoperations,gl,bankmanagement,True,True,True
+523,apc deck 02 cost centers from sap,nan,r2r,managementcostaccounting,co,managementreporting,True,True,True
+524,intermodal sap to teradata interface,nan,r2r,customerinvoicing&ar(mbil),co,customerinvoicing,False,True,False
+525,yearwise aar index rate,nan,r2r,customerinvoicing&ar(mbil),ar,reporting,True,True,True
+526,zytax diesel material feed,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+527,oss note 36353: report zttypv,nan,r2r,generalaccountingconsolidation&reporting,fi,generalaccounting,True,True,True
+528,reset block indicator on udmcaseattr00,nan,r2r,vendorinvoicing&ap,misc,nan,False,True,True
+529,fix status value on ftpt_req_head table,nan,r2r,customerinvoicing&ar(mbil),misc,customerinvoicing,False,True,False
+530,delete entries in mcct,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,True,True,True
+531,environmental remediation: update cost plan and transfer to budgets,nan,r2r,fixedasset&projectaccounting,ps,projectaccountingforenvironmentalremediation,True,True,True
+532,nan,nan,r2r,vendorinvoicing&ap,ap,vendorinvoicing,False,False,False
